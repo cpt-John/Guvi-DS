@@ -131,3 +131,92 @@ Sample Input :
 1 2 3 8
 Sample Output :
 yes
+
+#PROB12
+Given k sorted arrays of possibly different sizes, merge them and print the sorted output.
+Input Size : N<=100
+Example:
+INPUT
+k = 3
+1 3
+2 4 6
+0 9 10 11
+OUTPUT
+0 1 2 3 4 6 9 10 11
+
+#PROB13
+Given k sorted arrays of possibly different sizes, merge them and print the sorted output.
+Input Size : N<=100
+Example:
+INPUT
+k = 3
+1 3
+2 4 6
+0 9 10 11
+OUTPUT
+0 1 2 3 4 6 9 10 11
+
+#PROB14
+Given 2 numbers N,K and an array of N integers, find if the element K exists in the array.
+Input Size : N <= 100000
+Sample Testcase :
+INPUT
+5 2
+1 2 3 4 5
+OUTPUT
+yes
+HINT: Read about Binary Search
+
+#PROB15
+Given 2 numbers N and K followed by N elements, find the Kth smallest element.If the element cannot be found then print -1
+Input Size : N <= 100000
+Sample Testcase :
+INPUT
+5 2
+1 1 2 4 5
+OUTPUT
+2
+
+#PROB16
+Given two numbers N,K(N>=K) and an array of N elements, write a program to find the Kth largest element.
+Input Size : 1 <= K <= N <= 100000
+Sample Testcases :
+INPUT
+6 2
+1 2 3 4 5 6
+OUTPUT
+5
+
+#PROB17
+You are given a string s.Your task is to remove all the adjacent duplicate character from string.Print the string formed out of it.
+
+Input Description:
+You are given a string ‘s’
+
+Output Description:
+Print the resultant string
+
+Sample Input :
+Geeksforgeek
+Sample Output :
+Gksforgk
+
+#PROB18
+Given 2 strings S1 and S2. Find if String2 is substring of String1. If it is print the index of the first occurrence. else print -1.
+Input Size : 1<= N <= 100000
+Sample Testcases :
+1)INPUT
+test123string
+123
+OUTPUT
+4
+
+#PROB20
+Given a number N and array of N integers, print the prefix sum array for each position if it is divisible by 2 else print the element itself.
+Input Size : N <= 10000
+Sample Testcase :
+INPUT
+4
+2 4 4 4
+OUTPUT
+2 6 10 14
